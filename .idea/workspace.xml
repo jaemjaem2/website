@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51f9267f-0281-475b-8cc0-a02d2b8fc751" name="변경" comment="css 커서 색상 변경">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="51f9267f-0281-475b-8cc0-a02d2b8fc751" name="변경" comment="ui수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +92,7 @@
       <workItem from="1646638058574" duration="511000" />
       <workItem from="1646638575567" duration="25000" />
       <workItem from="1646638602763" duration="291000" />
-      <workItem from="1646638899172" duration="398000" />
+      <workItem from="1646638899172" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="css 커서 색상 변경">
       <created>1646638979805</created>
@@ -103,7 +101,28 @@
       <option name="project" value="LOCAL" />
       <updated>1646638979805</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ui수정">
+      <created>1646639340557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646639340557</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ui수정">
+      <created>1646639432691</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1646639432691</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ui수정">
+      <created>1646639578959</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1646639578959</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +145,7 @@
       <path value="$PROJECT_DIR$/신재민_ui/scroll-y" />
     </ignored-roots>
     <MESSAGE value="css 커서 색상 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="css 커서 색상 변경" />
+    <MESSAGE value="ui수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui수정" />
   </component>
 </project>
