@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51f9267f-0281-475b-8cc0-a02d2b8fc751" name="변경" comment="ui수정" />
+    <list default="true" id="51f9267f-0281-475b-8cc0-a02d2b8fc751" name="변경" comment="글자 애니메이션 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +92,7 @@
       <workItem from="1646638058574" duration="511000" />
       <workItem from="1646638575567" duration="25000" />
       <workItem from="1646638602763" duration="291000" />
-      <workItem from="1646638899172" duration="1455000" />
+      <workItem from="1646638899172" duration="1770000" />
     </task>
     <task id="LOCAL-00001" summary="css 커서 색상 변경">
       <created>1646638979805</created>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646640066525</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="글자 애니메이션 추가">
+      <created>1646640572036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646640572036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +174,7 @@
     </ignored-roots>
     <MESSAGE value="css 커서 색상 변경" />
     <MESSAGE value="ui수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui수정" />
+    <MESSAGE value="글자 애니메이션 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="글자 애니메이션 추가" />
   </component>
 </project>
