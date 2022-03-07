@@ -1201,7 +1201,7 @@
 #section18 .sec18_videobox{
     width: 800px;
     position: absolute;
-    right: 227px;
+    right: 50px;
     top: 76px;
     z-index: 99;
 }
@@ -1223,7 +1223,7 @@
     position: absolute;
     left: -1px;
     top: 0;
-    z-index: 99;
+    z-index: 100;
 }
 
 #section18 .sec18_videobox .video_box11 {
