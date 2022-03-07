@@ -89,13 +89,14 @@
 #section02{
     height: 702px;
     background: white;
+    overflow: initial;
 }
 
 #section02 .sec02_img{
     position: absolute;
     left: 12px;
     top: 35px;
-    overflow: initial;
+    z-index: 99;
 }
 
 #section02 .sec02_txt{
@@ -862,6 +863,7 @@
 #section15{
     height: 2572px;
     background: white;
+    overflow: initial;
 }
 
 #section15 .sec15_txt01{
@@ -1186,6 +1188,7 @@
 
 #section18{
     height: 864px;
+    overflow: initial;
 }
 
 #section18 .sec18_txt{
@@ -1200,6 +1203,7 @@
     position: absolute;
     right: 227px;
     top: 76px;
+    z-index: 99;
 }
 
 #section18 .sec18_videobox {
