@@ -1,0 +1,359 @@
+
+#section01{
+    height: 800px;
+}
+
+#header{
+    width: 1700px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+#header .gnb{
+    display: flex;
+}
+
+#header .gnb .logo_txt{
+    margin-right: 60px;
+}
+
+#header .gnb > li{
+    margin-right: 60px;
+}
+
+#header .search_box > li{
+    margin-right: 40px;
+}
+
+#header .gnb > li:last-child{
+    margin-right: 0;
+}
+
+#header .search_box{
+    margin-left: 350px;
+    display: flex;
+}
+
+.txt_container .txt_main01{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#section02{
+    height: 736px;
+    background: #fff;
+}
+
+#section02 .txt_container02 .txt_about01{
+    position: absolute;
+    left: 573px;
+    top: 162px;
+
+}
+
+#section02 .txt_container02 .txt_about02{
+    position: absolute;
+    left: 500px;
+    top: 295px;
+}
+
+#section02 .txt_container02 .txt_about03{
+    position: absolute;
+    left: 815px;
+    top: 454px;
+}
+
+
+#section02 .txt_container02 > div{
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+#section02.on .txt_container02 > div{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#section02 .txt_container02 > div:nth-child(1){transition-delay:0.2s}
+#section02 .txt_container02 > div:nth-child(2){transition-delay:0.3s}
+#section02 .txt_container02 > div:nth-child(3){transition-delay:0.4s}
+
+
+#section03{
+    height: 983px;
+    background: #fff;
+}
+
+#section03 .img_container{
+    position: absolute;
+    left: 924px;
+    top: 0;
+    width: 864px;
+    height: 780px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_container .history_img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#section03 .txt_container03{
+    position: absolute;
+    left: 184px;
+    top: 0;
+}
+
+.txt_container03 .history_txt01{
+    margin-top: 160px;
+}
+
+.txt_container03 .history_txt02{
+    margin-top: 86px;
+}
+
+#section03 .txt_container03 {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+#section03.on .txt_container03 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#section03 .txt_container03 > div:nth-child(1){transition-delay:0.2s}
+#section03 .txt_container03 > div:nth-child(2){transition-delay:0.3s}
+
+
+#section04{
+    height: 1120px;
+    background: #f4f4f4;
+}
+
+#section04 .img_container{
+    width: 701px;
+    height: 693px;
+    position: absolute;
+    left: 158px;
+    top: 193px;
+}
+
+#section04 .img_container .store{
+    position: relative;
+}
+
+#section04 .img_container .store iframe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all .3s;
+}
+
+
+#section04 .img_container .store iframe.on{
+    opacity: 1;
+}
+
+#section04 .img_container .icon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: url("../img/all/mouse.png"),default;
+}
+
+#section04 .img_container .store_img02{
+    position: absolute;
+    right: -201px;
+    top: 0;
+}
+
+#section04 .img_container .store_img03{
+    position: absolute;
+    right: -201px;
+    top: 178px;
+}
+
+#section04 .img_container .store_img04{
+    position: absolute;
+    right: -201px;
+    top: 356px;
+}
+
+#section04 .img_container .store_img05{
+    position: absolute;
+    right: -201px;
+    top: 534px;
+}
+
+
+#section04 .img_container .store_txt01{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+}
+
+#section04 .txt_container04{
+    position: absolute;
+    left: 1156px;
+    top: 310px;
+}
+
+#section04 .txt_container04 .store_txt02{
+    margin-top: 84px;
+}
+
+
+#section04 .txt_container04 {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+#section04.on .txt_container04 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#section04 .txt_container04 > div:nth-child(1){transition-delay:0.2s}
+#section04 .txt_container04 > div:nth-child(2){transition-delay:0.3s}
+
+
+#section05{
+    height: 520px;
+}
+
+#section05 .store_txt03{
+    position: absolute;
+    left: 574px;
+    top: 205px;
+}
+
+#section05 .store_txt03 {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+#section05.on .store_txt03 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+#section05 .store_txt03 > div:nth-child(1){transition-delay:0.2s}
+#section05 .store_txt03 > div:nth-child(2){transition-delay:0.3s}
+#section05 .store_txt03 > div:nth-child(3){transition-delay:0.4s}
+
+
+
+#section06{
+    height: 1281px;
+    background: #fff;
+}
+
+#section06 .re_txt{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: 223px;
+}
+
+#section06 .report_container {
+    width: 100vw;
+    height: 603px;
+    position: absolute;
+    left: 50%;
+    bottom: 45%;
+    transform: translate(-50%, 50%);
+}
+
+
+#section06 .report_container .slick-slide{
+    position: relative;
+    margin: 0 54px;
+    transition: all .5s;
+}
+
+#section06 .re_box .slick-slide .re_txtbox{
+    opacity: 0;
+    transition: all .5s .5s;
+    margin-top: 30px;
+}
+
+#section06 .re_box .slick-slide.slick-center .re_txtbox{
+    opacity: 1;
+    margin-top: 0;
+}
+
+#section06 .report_container .slick-slide.slick-center{
+    margin-top: 50px;
+}
+
+#section06 .re_box{
+    width: 466px;
+    height: 396px;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    left: 203px;
+    top: 536px;
+}
+
+#section06 .re_box .re_txtbox{
+    width: 360px;
+    height: 230px;
+    position: absolute;
+    left: 50%;
+    top: 81px;
+    transform: translatex(-50%);
+}
+
+#section06 .re_box .re_txtbox .slick-slide{
+    width: 360px;
+    height: 230px;
+    position:relative;
+}
+#section06 .re_buttons{
+    width: 1800px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 658px;
+    display: flex;
+
+}
+
+#section06 .re_buttons .re_but01{
+    cursor: url("../img/all/mouse.png"),default;
+}
+
+
+#section06 .re_buttons .re_but02{
+    margin-left: auto;
+    cursor: url("../img/all/mouse.png"),default;
+}
+
+#sc06_slider{
+    width: 100vw;
+    height: 237px;
+    position: relative;
+}
+

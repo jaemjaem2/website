@@ -1,0 +1,544 @@
+
+#nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+
+
+#cursor{
+    position:fixed;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 9999;
+    width: 90px;
+    height: 90px;
+    border-radius: 60%;
+    background:black;
+    opacity: 0;
+}
+
+
+#section01{
+    height: 980px;
+    background: white;
+}
+
+
+#section01 .all {
+    position: absolute;
+    left: 40px;
+    top: 52px;
+}
+
+#section01 .sec01_txt01{
+    position: absolute;
+    left: 50%;
+    top: 398px;
+    transform: translatex(-50%);
+}
+
+#section01 .sec01_txt02{
+    position: absolute;
+    left: 0;
+    top: 531px;
+}
+
+
+
+
+#section01 .sec01_txt03{
+    position: absolute;
+    right: 67px;
+    bottom: 45px;
+}
+
+#section01 .txt_container .txt_box01{
+    position: absolute;
+    left: 374px;
+    top: 6px;
+}
+
+#section01 .txt_container .txt_box01 .line01{
+    width: 10px;
+    height:0;
+    background: #ff4337;
+    position: absolute;
+    left:0;
+    bottom:0;
+    /* transition: all 1s; */
+    /* 
+    infinite - 무한반복 
+    forwards - 한번 
+    */
+    
+    /* animation: line01 1s 1 forwards 1s; */
+    animation: line01 2s infinite  1s;
+}
+
+@keyframes line01 {
+    to{
+        height: 56px;
+    }
+}
+
+#section01 .txt_container .txt_box04{
+    position: absolute;
+    right: 218px;
+    top: 395px;
+}
+
+#section01 .txt_container .txt_box04 .line02{
+    width: 10px;
+    height:0;
+    background: #4febab;
+    position: absolute;
+    left:0;
+    bottom:0;
+    /* transition: all 1s; */
+    /*
+    infinite - 무한반복
+    forwards - 한번
+    */
+
+    /* animation: line01 1s 1 forwards 1s; */
+    animation: line02 2s infinite  1s;
+}
+
+@keyframes line02 {
+    to{
+        height: 56px;
+    }
+}
+
+#section01 .txt_container .txt_box05{
+    position: absolute;
+    right: 765px;
+    top: 244px;
+}
+
+#section01 .txt_container .txt_box05 .line03{
+    width: 0;
+    height: 9px;
+    background: #ff7901;
+    position: absolute;
+    left:0;
+    bottom:46px;
+    animation: line03 2s infinite  1s;
+}
+
+@keyframes line03 {
+    to{
+        width: 45px;
+    }
+}
+
+
+
+#section01 .txt_container .txt_box02{
+    position: absolute;
+    right: 408px;
+    top: 44px;
+}
+
+#section01 .txt_container .txt_box03{
+    position: absolute;
+    left: 190px;
+    top: 606px;
+}
+
+#section01 .txt_container .txt_box04{
+    position: absolute;
+    right: 218px;
+    top: 395px;
+}
+
+#section01 .txt_container .txt_box05{
+    position: absolute;
+    left: 765px;
+    top: 244px;
+}
+
+#section01 .txt_container .txt_box06{
+    position: absolute;
+    left: 447px;
+    bottom: 17px;
+}
+
+#section01 .txt_container .txt_box06 .line04{
+    width: 10px;
+    height:0;
+    background: #c231d8;
+    position: absolute;
+    left:0;
+    bottom:0;
+    animation: line04 2s infinite  1s;
+}
+
+@keyframes line04 {
+    to{
+        height: 56px;
+    }
+}
+
+
+#section01 .txt_container .txt_box07{
+    position: absolute;
+    right: 382px;
+    bottom: 70px;
+}
+
+#section01 .txt_container .txt_box08{
+    position: absolute;
+    left: 862px;
+    bottom: 222px;
+}
+
+#section01 .txt_container .txt_box08 .line05{
+    width: 0;
+    height: 9px;
+    background: #00afe8;
+    position: absolute;
+    left: 1px;
+    bottom:46px;
+    animation: line05 2s infinite  1s;
+}
+
+@keyframes line05 {
+    to{
+        width: 34px;
+    }
+}
+
+#section01 .txt_container .txt_box08 .line06{
+    width: 0;
+    height: 9px;
+    background: #00afe8;
+    position: absolute;
+    left: 1px;
+    bottom:25px;
+    animation: line05 2s infinite  1s;
+}
+
+@keyframes line05 {
+    to{
+        width: 34px;
+    }
+}
+
+#section01 .txt_container .txt_box08 .line07{
+    width: 0;
+    height: 9px;
+    background: #00afe8;
+    position: absolute;
+    left: 1px;
+    bottom: 0;
+    animation: line05 2s infinite  1s;
+}
+
+@keyframes line05 {
+    to{
+        width: 34px;
+    }
+}
+
+#section02{
+    height: 980px;
+    background: black;
+}
+
+#section02 .all{
+    position: absolute;
+    left: 40px;
+    top: 52px;
+}
+
+#section02 .sec02_txt{
+    width: 730px;
+    height: 466px;
+    position: absolute;
+    left: 235px;
+    top: 276px;
+    transform: translateY(-30px);
+    transition: all 2s 0.5s;
+    opacity: 0;
+}
+
+#section02.on .sec02_txt{
+    transform: translateY(0);
+    opacity:1;
+}
+
+
+#section02 .sec02_txt .sec02_txt01{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#section02 .sec02_txt02{
+    position: absolute;
+    left: -63px;
+    bottom: 36px;
+    animation: circle 10s infinite linear;
+}
+
+
+
+@keyframes circle{
+    to{
+        transform:rotate(1turn);
+    }
+}
+
+#section02 .sec02_img{
+    position: absolute;
+    right: 188px;
+    top: 173px;
+}
+
+
+#section03{
+    height: 100vh;
+    background: white;
+}
+
+
+.swiper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+
+.swiper .swiper-slide{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    pointer-events:none;
+    background: #fff;
+}
+
+
+.swiper .swiper-slide.swiper-slide-active{
+    opacity: 1;
+    pointer-events:initial;
+}
+
+.swiper .swiper-slide .sec03_img{
+    transform: translateY(30px);
+    transition: all .5s;
+    opacity: 0;
+}
+
+
+.swiper .swiper-slide.swiper-slide-active .sec03_img{
+    transform: translateY(0)    ;
+    opacity: 1;
+}
+
+.swiper .swiper-slide .sec04_img{
+    transform: translateY(30px);
+    transition: all .5s;
+    opacity: 0;
+}
+
+
+.swiper .swiper-slide.swiper-slide-active .sec04_img{
+    transform: translateY(0)    ;
+    opacity: 1;
+}
+
+.swiper .swiper-slide .sec05_img{
+    transform: translateY(30px);
+    transition: all .5s;
+    opacity: 0;
+}
+
+
+.swiper .swiper-slide.swiper-slide-active .sec05_img{
+    transform: translateY(0)    ;
+    opacity: 1;
+}
+
+.swiper .swiper-slide .sec06_img{
+    transform: translateY(30px);
+    transition: all .5s;
+    opacity: 0;
+}
+
+
+.swiper .swiper-slide.swiper-slide-active .sec06_img{
+    transform: translateY(0)    ;
+    opacity: 1;
+}
+
+.swiper .swiper-slide .sec07_img{
+    transform: translateY(30px);
+    transition: all .5s;
+    opacity: 0;
+}
+
+
+.swiper .swiper-slide.swiper-slide-active .sec07_img{
+    transform: translateY(0)    ;
+    opacity: 1;
+}
+
+.swiper .swiper-slide .sec03_txt02{
+    transform: translatex(-50px);
+    transition: all 2s;
+    opacity: 0;
+}
+
+
+.swiper .swiper-slide.swiper-slide-active .sec03_txt02{
+    transform: translatex(0)    ;
+    opacity: 1;
+}
+
+#section03 .all{
+    position: absolute;
+    left: 40px;
+    top: 52px;
+}
+
+#section03 .sec03_img{
+    position: absolute;
+    left: 26px;
+    top: 22px;
+}
+
+#section03 .sec03_img02{
+    position: absolute;
+    left: 0;
+    top: 141px;
+}
+
+#section03 .sec03_txt01{
+    position: absolute;
+    right: 77px;
+    top: 65px;
+}
+
+
+#section03 .sec03_txt02{
+    position: absolute;
+    left: 1135px;
+    top: 362px;
+}
+
+#section03 .number_box{
+    height: 358px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 70px;
+    top: 313px;
+}
+
+
+.progress{
+    width: 3px;
+    height: 260px;
+    background: #d9d9d9;
+    position: absolute;
+    right: 81px;
+    top:52%;
+    transform: translateY(-50%);
+    z-index: 989;
+}
+
+.progress .bar{
+    width:100%;
+    height: 60px;
+    background: black ;
+    transition: all 1s;
+}
+
+
+#section03 .all{
+    position: absolute;
+    left: 40px;
+    top: 52px;
+}
+
+#section03 .sec04_img{
+    position: absolute;
+    left: 123px;
+    bottom: -13px;
+}
+
+
+
+
+#section03 .sec05_img{
+    position: absolute;
+    left: 166px;
+    bottom: 0;
+}
+
+
+#section03 .sec06_img{
+    position: absolute;
+    left: 64px;
+    top: 239px;
+}
+
+
+#section03 .sec07_img{
+    position: absolute;
+    left: 234px;
+    top: 112px;
+}
+
+
+#footer{
+    height: 980px;
+    background: black;
+}
+
+#footer .sec08_txt01{
+    position: absolute;
+    left: 50%;
+    top: 239px;
+    transform: translatex(-50%);
+}
+
+
+#footer .sec08_txt02{
+    position: absolute;
+    left: 50%;
+    top: 351px;
+    transform: translatex(-50%);
+}
+
+
+#footer .sec08_txt03{
+    position: absolute;
+    left: 0;
+    top: 492px;
+    transform: translatex(-260px);
+    transition: all 2s 0.5s;
+    opacity: 0;
+}
+
+
+#footer .sec08_txt03.on{
+    transform: translatex(0);
+    opacity:1;
+}
+
+
+
+#footer .sec08_txt04{
+    position: absolute;
+    left: 50%;
+    top: 719px;
+    transform: translatex(-50%);
+}

@@ -1,0 +1,152 @@
+
+#section01{
+    height: 160px;
+    background: white;
+}
+
+#header{
+    width: 1700px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+#header .gnb{
+    display: flex;
+}
+
+#header .gnb .logo_txt{
+    margin-right: 60px;
+}
+
+#header .gnb > li{
+    margin-right: 60px;
+}
+
+#header .search_box > li{
+    margin-right: 40px;
+}
+
+#header .gnb > li:last-child{
+    margin-right: 0;
+}
+
+#header .search_box{
+    margin-left: 350px;
+    display: flex;
+}
+
+#section01 .line{
+    background: rgba(0,0,0,0.2);
+    height: 1px;
+    margin-top: 105px;
+}
+
+#section02{
+    height: 1199px;
+    background: white;
+}
+
+#section02 .img_container{
+    width: 1600px;
+    height: 986px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translatex(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#section02 .img_container .bigimg_box{
+    width: 659px;
+    position: absolute;
+    left: 157px;
+    top: 0;
+    cursor: url("../img/all/mouse.png"),default;
+}
+
+#section02 .img_container .bigimg_box .slick-dots{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section02 .img_container .bigimg_box .slick-dots > li{
+    width: 119px;
+    height: 177px;
+    margin: 0 0 26px -156px;
+    opacity: 0.4;
+    transition: all 1s;
+}
+#section02 .img_container .bigimg_box .slick-dots > li.slick-active{
+    opacity:1;
+}
+
+#section02 .img_container .bigimg_box .slick-dots > li:nth-child(1){ background:url("../sub04_img/section01/sec01_01.jpg") no-repeat center;}
+#section02 .img_container .bigimg_box .slick-dots > li:nth-child(2){ background:url("../sub04_img/section01/sec01_02.jpg") no-repeat center;}
+#section02 .img_container .bigimg_box .slick-dots > li:nth-child(3){ background:url("../sub04_img/section01/sec01_03.jpg") no-repeat center;}
+#section02 .img_container .bigimg_box .slick-dots > li:nth-child(4){ background:url("../sub04_img/section01/sec01_04.jpg") no-repeat center;}
+#section02 .img_container .bigimg_box .slick-dots > li:nth-child(5){ background:url("../sub04_img/section01/sec01_05.jpg") no-repeat center;}
+
+#section02 .img_container .bigimg_box .slick-dots > li > button{
+    display: none;
+}
+
+#section02 .img_container .txt_box{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#sc02_slider{
+    width: 100vw;
+    height: 978px;
+    position: relative;
+}
+
+#section03{
+    height: 5566px;
+}
+
+#section04{
+    height: 673px;
+    background: white;
+}
+
+#section04 .sec04_imgbox{
+    width: 1502px;
+    position: absolute;
+    left: 210px;
+    top: 0;
+}
+
+#section04 .sec04_imgbox .sec04_txt{
+    margin-top: 28px;
+}
+
+#section04 .but_box{
+    width: 1654px;
+    height: 61px;
+    position: absolute;
+    left: 133px;
+    top: 181px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sc04_slider{
+    width: 100vw;
+    height: 517px;
+    position: relative;
+}
+
+#sc04_slider .slick-slide{
+    margin: 0 9px;
+}
