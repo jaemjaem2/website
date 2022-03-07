@@ -147,7 +147,7 @@ $(document).ready(function() {
 
             if (index == 1) {// 01 = true
 
-        
+                $('.sec01_txt02').addClass('on');
 
             } else { // 01 = false
 

@@ -45,8 +45,16 @@
     position: absolute;
     left: 0;
     top: 531px;
+    transform: translatex(-260px);
+    transition: all 2s 0.5s;
+    opacity: 0;
 }
 
+
+#section01 .sec01_txt02.on{
+    transform: translatex(0);
+    opacity:1;
+}
 
 
 
