@@ -150,3 +150,14 @@
 #sc04_slider .slick-slide{
     margin: 0 9px;
 }
+
+#footer .startPoint {
+    position: absolute;
+    right: 100px;
+    bottom: 420px;
+    z-index: 899998989;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
