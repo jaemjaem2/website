@@ -182,7 +182,11 @@
 }
 
 #section03 .sec03_txtbox .sec03_txt03{
-    margin: 63px 60px 0 0;
+    margin: 63px 25px 0 0;
+}
+
+#section03 .sec03_txtbox .sec03_txt04{
+    margin: 0 -35px 0 0;
 }
 
 
